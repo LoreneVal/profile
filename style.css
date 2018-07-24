@@ -70,11 +70,11 @@ a:hover{
   border-radius: 50%;
 }
 
-li {
+.card li {
   display: inline-block;
   padding: 0px 20px;
 }
-ul {
+.card ul {
   padding-left:0;
 }
 .btn-red {
@@ -87,5 +87,40 @@ ul {
 .btn-red:hover{
   background-color: #E83A48;
   color: white;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 50px;
+  margin: ;
+  width: 900px;
+  padding-bottom: 50px;
+}
+
+#side-bar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #414751;
+}
+#page-content {
+  margin-left: 150px;
+}
+
+#side-bar li {
+  list-style: none;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  }
+#side-bar ul {
+  padding-left: 0;
 }
 
