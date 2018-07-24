@@ -123,4 +123,6 @@ footer{
 #side-bar ul {
   padding-left: 0;
 }
-
+i {
+  display: block !important;
+}
